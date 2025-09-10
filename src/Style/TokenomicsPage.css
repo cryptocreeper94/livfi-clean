@@ -1,0 +1,55 @@
+/* TokenomicsPage.css */
+.lif-tokenomics-page {
+  padding: 4rem 2rem;
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  color: #e0e0e0;
+  background-color: transparent;
+}
+
+.lif-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #00ffd0;
+}
+
+.lif-section {
+  margin-bottom: 3rem;
+  border-left: 4px solid #00ffd0;
+  padding-left: 1rem;
+}
+
+.lif-section h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.lif-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.lif-section li {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+  color: #cccccc;
+}
+
+.lif-visuals {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.lif-chart {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 0 12px rgba(0, 255, 208, 0.2);
+}

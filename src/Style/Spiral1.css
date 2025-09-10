@@ -1,0 +1,50 @@
+/* Spiral1.css */
+.lif-spiral-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+  background: radial-gradient(circle at center, #0f0f0f, #000);
+}
+
+.lif-spiral-layer {
+  position: absolute;
+  border-radius: 50%;
+  animation: spin 20s linear infinite;
+  opacity: 0.1;
+}
+
+.lif-spiral-1 {
+  width: 600px;
+  height: 600px;
+  border: 2px solid #00ffcc;
+  top: 10%;
+  left: 10%;
+}
+
+.lif-spiral-2 {
+  width: 800px;
+  height: 800px;
+  border: 2px dashed #ff00cc;
+  top: 30%;
+  left: 30%;
+  animation-duration: 30s;
+}
+
+.lif-spiral-3 {
+  width: 1000px;
+  height: 1000px;
+  border: 2px dotted #ccff00;
+  top: 50%;
+  left: 50%;
+  animation-duration: 40s;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
