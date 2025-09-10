@@ -2,7 +2,7 @@
 import React from 'react';
 import TokenomicsPage from './Component/TokenomicsPage';
 
-import Spiral1 from './visuals/Spiral1';
+import Spiral1 from './Component/Spiral1';
 
 const App = () => {
   return (
