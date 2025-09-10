@@ -1,6 +1,7 @@
 // App.jsx
 import React from 'react';
-import TokenomicsPage from './pages/TokenomicsPage';
+import TokenomicsPage from './Component/TokenomicsPage';
+
 import Spiral1 from './visuals/Spiral1';
 
 const App = () => {
