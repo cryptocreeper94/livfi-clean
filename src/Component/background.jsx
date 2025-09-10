@@ -1,5 +1,6 @@
 import React from 'react';
-import './background.css';
+import'../Style/background.css';
+
 import watermarkGlow from '../assets/watermark_glow_20.png';
 
 const background = () => {
