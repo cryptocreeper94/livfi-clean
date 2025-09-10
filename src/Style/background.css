@@ -1,5 +1,4 @@
-/* Spiral1.css */
-.lif-spiral-bg {
+.lif-background {
   position: fixed;
   top: 0;
   left: 0;
@@ -10,7 +9,7 @@
   background-color: #000;
 }
 
-.lif-spiral-img {
+.lif-background-img {
   position: absolute;
   top: 50%;
   left: 50%;

@@ -1,14 +1,16 @@
 import React from 'react';
-import Spiral1 from './Component/Spiral1';
+import background from './Component/background';
+import TokenomicsPage from './Component/TokenomicsPage';
 
 const App = () => {
   return (
     <div className="lif-app lif-canon">
-      <Spiral1 />
-      <h1>LivFi is alive</h1>
+      <background />
+      <TokenomicsPage />
     </div>
   );
 };
 
 export default App;
+
 
